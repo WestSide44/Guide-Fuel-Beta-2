@@ -231,7 +231,7 @@ impl Counter for Contract {
 
 
 If you originally had **Beta-1** you should upgrade to **Beta-2** 
-[![imgonline-com-ua-Resize-5-Sso-YHSZxq-U.png](https://i.postimg.cc/4yds9shh/imgonline-com-ua-Resize-5-Sso-YHSZxq-U.png)](https://postimg.cc/XGTRMMLV) **Add Custom** Network and replace the line node-beta-1 with node-beta-2 and click **Switch**
+[![imgonline-com-ua-Resize-5-Sso-YHSZxq-U.png](https://i.postimg.cc/4yds9shh/imgonline-com-ua-Resize-5-Sso-YHSZxq-U.png)](https://postimg.cc/XGTRMMLV) **Add Custom Network** and replace the line node-beta-1 with node-beta-2 and click **Switch**
 
 
 
