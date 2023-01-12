@@ -51,7 +51,7 @@
   mkdir fuel-project
   ```
   
-  Change the current directory
+  go to the directory
   
   ``` 
   cd fuel-project
@@ -61,7 +61,7 @@
   forc new counter-contract
   ```
   
- Go to the path /root/fuel-project/counter-contract/src/main.sw
+ Go to the path ```/root/fuel-project/counter-contract/src/main.sw```  
  
  Or run the commands:
  
@@ -75,7 +75,7 @@
 
 delete the contents of the file main.sw
   
-copy the contract code and paste it into the file main.sw
+copy the contract code and paste it into the file ```main.sw```
  
  ``` 
  contract;
@@ -121,17 +121,75 @@ impl Counter for Contract {
   fuelup component add forc-wallet
   ```
   
+  go to the directory
+  
+  ``` 
+  cd counter-contract
+  ```
+  
+  Build packages
+  
+  ``` 
+  forc build
+  ```
+ 
+ Create a wallet and make up a password (be sure to save the mnemonic phrase)
+ 
+  ``` 
+  forc-wallet init
+  ```
+  
+  ``` 
+  forc-wallet new
+  ```
+  
+  Copy the wallet address and get test tokens from the [faucet](https://faucet-beta-2.fuel.network/)
+  
+  Executing Deploy
+  
+  ``` 
+  forc deploy --url https://node-beta-2.fuel.network/graphql --gas-price 1
+  ```
+  
+  Insert the wallet address and get the Tx id to sign
+  
+  **Then connect to the same host or open a second session** 
+  
+  Executing commands in the second session:
+  
+  ``` 
+  cd fuel-project
+  ```
+  
   ``` 
   cd counter-contract
   ```
   
   ``` 
-  forc build
+  export PATH="${HOME}/.fuelup/bin:${PATH}"
   ```
   
   ``` 
-  forc-wallet init
+  forc wallet sign "Tx id to sign **from first session**" 0
   ```
+  
+  Copy the signature and paste it into the first session
+  
+  We end up with the **TransactionId**
+
+copy **TransactionId** and add 0x at the beginning of the line 
+Then we check our transaction in the [explorer](https://fuellabs.github.io/block-explorer-v2/)
+
+If you originally had **Beta-1** you should upgrade to **Beta-2** 
+Click on Tesnet Beta-1 [Pngtree-vector-right-arrow-icon-4231911.png](https://postimg.cc/14W2SQjy) Add Custom Network and replace the line node-beta-1 with node-beta-2 and click **Switch**
+
+After that we check our contract
+
+
+  
+  
+  
+           
   
   
  
