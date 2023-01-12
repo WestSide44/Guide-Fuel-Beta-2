@@ -50,8 +50,7 @@
   
   Confirm by pressing Y
 
-  S
-  et the variables
+  Set the variables
 
   
   ``` 
