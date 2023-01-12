@@ -105,7 +105,7 @@ impl Counter for Contract {
 }
 
  ```
- official web site https://fuellabs.github.io/fuel-docs/master/developer-quickstart.html
+[official documentation](https://fuellabs.github.io/fuel-docs/master/developer-quickstart.html)
  
  loading components
  
@@ -181,7 +181,7 @@ copy **TransactionId** and add 0x at the beginning of the line
 Then we check our transaction in the [explorer](https://fuellabs.github.io/block-explorer-v2/)
 
 If you originally had **Beta-1** you should upgrade to **Beta-2** 
-Click on Tesnet Beta-1 [![imgonline-com-ua-Resize-PFyv-Ixhmb-HS.png](https://i.postimg.cc/k4CKvtTt/imgonline-com-ua-Resize-PFyv-Ixhmb-HS.png)](https://postimg.cc/5HPXxjdx) Add Custom Network and replace the line node-beta-1 with node-beta-2 and click **Switch**
+Click on Tesnet Beta-1 [![imgonline-com-ua-Resize-lc1-Se-L08cie.png](https://i.postimg.cc/4dBv4QgQ/imgonline-com-ua-Resize-lc1-Se-L08cie.png)](https://postimg.cc/gXLLNRrx) Add Custom Network and replace the line node-beta-1 with node-beta-2 and click **Switch**
 
 After that we check our contract
 
