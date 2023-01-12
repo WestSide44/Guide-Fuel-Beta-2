@@ -226,7 +226,7 @@ impl Counter for Contract {
   Copy the signature and paste it into the first session and press Enter
   
   
- As a result we get **TransactionId** It should be copied, but at the beginning of the string write **0x** then check in [Explorer](https://fuellabs.github.io/block-explorer-v2/).
+ As a result we get **TransactionId** It should be copied, but at the beginning of the string write **0x** then check in [Explorer](https://fuellabs.github.io/block-explorer-v2/)
 
 
 If you originally had **Beta-1** you should upgrade to **Beta-2** 
