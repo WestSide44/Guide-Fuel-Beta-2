@@ -194,6 +194,7 @@ impl Counter for Contract {
   
   Insert the wallet address and get the Tx id to sign
   
+  
   **Then connect to the same host or open a second session** 
   
   
@@ -222,15 +223,18 @@ impl Counter for Contract {
   
   Copy the signature and paste it into the first session
   
+  
   We end up with the **TransactionId**
 
 
 copy **TransactionId** and add 0x at the beginning of the line 
+
+
 Then we check our transaction in the [explorer](https://fuellabs.github.io/block-explorer-v2/)
 
 
 If you originally had **Beta-1** you should upgrade to **Beta-2** 
-Click on Tesnet Beta-1 [![imgonline-com-ua-Resize-bf05-Jdy-RYyz-N.png](https://i.postimg.cc/HWKmVG3F/imgonline-com-ua-Resize-bf05-Jdy-RYyz-N.png)](https://postimg.cc/kDxzpp0y) Add Custom Network and replace the line node-beta-1 with node-beta-2 and click **Switch**
+[![imgonline-com-ua-Resize-DZwj-IVe-Lco3-IG82.png](https://i.postimg.cc/02Tc6nT8/imgonline-com-ua-Resize-DZwj-IVe-Lco3-IG82.png)](https://postimg.cc/3dZgVXr6) Add Custom Network and replace the line node-beta-1 with node-beta-2 and click **Switch**
 
 After that we check our contract
 
