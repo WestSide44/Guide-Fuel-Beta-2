@@ -55,6 +55,7 @@
   Set the variables
 
   
+  
   ``` 
   export PATH="${HOME}/.fuelup/bin:${PATH}"
   ```
