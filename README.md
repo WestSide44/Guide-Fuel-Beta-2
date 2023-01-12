@@ -223,7 +223,7 @@ impl Counter for Contract {
   ```
   
   
-  Copy the signature and paste it into the first session
+  Copy the signature and paste it into the first session and press Enter
   
   
   We end up with the **TransactionId**
