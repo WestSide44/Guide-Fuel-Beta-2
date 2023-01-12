@@ -226,19 +226,13 @@ impl Counter for Contract {
   Copy the signature and paste it into the first session and press Enter
   
   
-  We end up with the **TransactionId**
-
-
-copy **TransactionId** and add 0x at the beginning of the line 
-
-
-Then we check our transaction in the [explorer](https://fuellabs.github.io/block-explorer-v2/)
+ As a result we get **TransactionId** It should be copied, but at the beginning of the string write **0x** then check in [Explorer](https://fuellabs.github.io/block-explorer-v2/).
 
 
 If you originally had **Beta-1** you should upgrade to **Beta-2** 
-[![imgonline-com-ua-Resize-5-Sso-YHSZxq-U.png](https://i.postimg.cc/4yds9shh/imgonline-com-ua-Resize-5-Sso-YHSZxq-U.png)](https://postimg.cc/XGTRMMLV) Add Custom Network and replace the line node-beta-1 with node-beta-2 and click **Switch**
+[![imgonline-com-ua-Resize-5-Sso-YHSZxq-U.png](https://i.postimg.cc/4yds9shh/imgonline-com-ua-Resize-5-Sso-YHSZxq-U.png)](https://postimg.cc/XGTRMMLV) **Add Custom** Network and replace the line node-beta-1 with node-beta-2 and click **Switch**
 
-After that we check our contract
+
 
 
   
