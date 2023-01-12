@@ -25,7 +25,7 @@
   ``` 
   curl — proto ‘=https’ — tlsv1.2 -sSf https://sh.rustup.rs | sh 
   ```
-  select the number "1"
+  select the number **1**
   
   ``` 
   source "$HOME/.cargo/env"
@@ -37,7 +37,7 @@
   curl — proto ‘=https’ — tlsv1.2 -sSf https://fuellabs.github.io/fuelup/fuelup-init.sh | sh
   ```
   
-  Confirm by pressing "Y"
+  Confirm by pressing **Y**
 
   Set the variables
 
@@ -73,9 +73,9 @@
   vim counter-contract/src/main.sw
   ```
 
-delete the contents of the file main.sw
+delete the contents of the file **main.sw**
   
-copy the contract code and paste it into the file ```main.sw```
+copy the contract code and paste it into the file **main.sw**
  
  ``` 
  contract;
@@ -181,7 +181,7 @@ copy **TransactionId** and add 0x at the beginning of the line
 Then we check our transaction in the [explorer](https://fuellabs.github.io/block-explorer-v2/)
 
 If you originally had **Beta-1** you should upgrade to **Beta-2** 
-Click on Tesnet Beta-1 [Pngtree-vector-right-arrow-icon-4231911.png](https://postimg.cc/14W2SQjy) Add Custom Network and replace the line node-beta-1 with node-beta-2 and click **Switch**
+Click on Tesnet Beta-1 [![Pngtree-vector-right-arrow-icon-4231911.png](https://i.postimg.cc/ncZJvVK9/Pngtree-vector-right-arrow-icon-4231911.png)](https://postimg.cc/14W2SQjy) Add Custom Network and replace the line node-beta-1 with node-beta-2 and click **Switch**
 
 After that we check our contract
 
