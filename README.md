@@ -220,7 +220,7 @@ impl Counter for Contract {
   
   
   ``` 
-  forc wallet sign "Tx id to sign **from first session** " 0
+  forc wallet sign "Tx id to sign from first session" 0
   ```
   
   
