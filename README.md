@@ -25,7 +25,7 @@
   ``` 
   curl — proto ‘=https’ — tlsv1.2 -sSf https://sh.rustup.rs | sh 
   ```
-  **select the number 1**
+  select the number **1**
   
   ``` 
   source "$HOME/.cargo/env"
