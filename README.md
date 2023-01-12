@@ -61,7 +61,7 @@
   forc new counter-contract
   ```
   
- Go to the path ```/root/fuel-project/counter-contract/src/main.sw```  
+ Go to the path **/root/fuel-project/counter-contract/src/main.sw**  
  
  Or run the commands:
  
