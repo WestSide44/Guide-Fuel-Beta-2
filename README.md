@@ -25,7 +25,7 @@
   ``` 
   curl — proto ‘=https’ — tlsv1.2 -sSf https://sh.rustup.rs | sh 
   ```
-  select the number **1**
+  **select the number 1**
   
   ``` 
   source "$HOME/.cargo/env"
@@ -37,7 +37,7 @@
   curl — proto ‘=https’ — tlsv1.2 -sSf https://fuellabs.github.io/fuelup/fuelup-init.sh | sh
   ```
   
-  Confirm by pressing **Y**
+  Confirm by pressing Y
 
   Set the variables
 
